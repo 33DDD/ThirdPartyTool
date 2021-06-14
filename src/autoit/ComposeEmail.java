@@ -18,6 +18,8 @@ public class ComposeEmail {
 	//public static String Chrome_Key="webdriver.chrome.driver";
 	//public static String Chrome_Value = "C:\\Users\\Owner\\eclipse-workspace\\ThirdPartyToolDemo\\driveme\\chromedriver.exe";
 	public WebDriverWait wait = null;
+	
+	// This is a precondition method to set the browser
 	@BeforeMethod
 	public void precondition(){
 		
